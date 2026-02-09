@@ -124,3 +124,29 @@ import numpy as np
 # sqrt_result = np.sqrt(sqrt_arr) 
 # print(sqrt_result)
 
+# filtering
+
+# arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+# filtered_arr = arr[arr > 5]
+# print(filtered_arr)
+
+# arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+# new_arr = np.insert(arr, 5, 99)
+# print(new_arr)
+
+# arr = np.array([1, 2, 3, 4, 5])
+# new_arr = np.append(arr, 100) 
+# print(new_arr)
+
+# arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+# new_arr = np.insert(arr_2d, 0, [100, 200, 300], axis=1)
+# print(new_arr)
+
+# arr = np.array([12, 34, 56, 78, 90, 123, 456, 789, 1000])
+# new_arr = np.delete(arr, len(arr) - 1)
+# print(new_arr)
+
+# arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+# new_arr = np.delete(arr_2d, 0, axis=1)
+# print(new_arr)
+
