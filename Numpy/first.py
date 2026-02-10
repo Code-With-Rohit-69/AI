@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 
 # arr = np.array([1, 2, 3, 4, 5])
 # print(arr[len(arr) - 1])
@@ -150,3 +150,22 @@ import numpy as np
 # new_arr = np.delete(arr_2d, 0, axis=1)
 # print(new_arr)
 
+# Broadcasting
+
+# arr = np.array([100, 200, 300, 400, 500])
+# print(arr - (arr / 10))
+
+# arr1 = np.array([1, 2, 3, 4 ,5 ])
+# arr2 = np.array([1, 2, 3, 4 ,5 ])
+# print(arr1 * arr2)
+
+# Handling missing data
+
+# arr = np.array([1, 2, np.nan, 4, 5])
+# arr = np.nan_to_num(arr, nan=100)
+# print(arr)
+
+# arr = np.array([1, 2, 3, np.inf, 5, -np.inf, 6, 7])
+# print(np.isinf(arr))
+# arr = np.nan_to_num(arr, posinf=1000, neginf=-1000)
+# print(arr)
